@@ -24,6 +24,24 @@ import ScrollReveal from "./ScrollReveal";
 export default function Projects() {
   const projects = [
     {
+      name: "King Barbar Shop - Barber & Salon Booking Platform",
+      role: "Full Stack Developer",
+      date: "2026",
+      image: "/images/king_barbar_shop.png",
+      description:
+        "King Barbar Shop is a modern, full-stack luxury barber and salon booking web application where customers can explore salon services, browse master hairstyles, and make appointments through an intuitive online booking experience.",
+      features: [
+        "Full-stack salon booking platform with strict client authentication before reservations.",
+        "Interactive service exploration, hairstyle lookbook, and master artisan profiles.",
+        "Real-time appointment scheduling with customized date & time pickers.",
+        "Robust PostgreSQL database architecture managed with Prisma ORM and Express REST APIs.",
+        "Responsive, luxury dark-aesthetic UI engineered with React.js and Material UI.",
+      ],
+      technologies: ["React.js", "JavaScript", "Material UI", "Node.js", "Express", "PostgreSQL", "Prisma"],
+      github: "https://github.com/RKRajasekar/king-barbar-shop",
+      demo: "https://king-barbar-shop-p6zi.vercel.app/",
+    },
+    {
       name: "Snap Tech - Full Stack E-Commerce Platform",
       role: "MERN Stack Developer",
       date: "May 2026",
