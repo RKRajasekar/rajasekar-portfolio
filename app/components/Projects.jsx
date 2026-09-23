@@ -24,6 +24,25 @@ import ScrollReveal from "./ScrollReveal";
 export default function Projects() {
   const projects = [
     {
+      name: "NextBus – Premium Bus & Cab Booking Platform",
+      role: "Bus & Cab Booking Platform",
+      category: "Bus & Cab Booking Platform",
+      date: "2026",
+      image: "/images/nextbus.png",
+      description:
+        "Premium bus and cab booking platform with route search, seat selection, ticket booking, offers, and live travel information.",
+      features: [
+        "Comprehensive bus and cab booking with route search and dynamic filtering.",
+        "Interactive seat selection layout with instant digital ticket booking.",
+        "Access to government bus services and verified travel operator fleets.",
+        "Promotional travel offers, coupons, and journey discounts.",
+        "Live trip and bus information tracking with dedicated 'My Tickets' management.",
+      ],
+      technologies: ["Next.js", "React.js", "Material UI", "JavaScript", "Responsive Design"],
+      github: "https://github.com/RKRajasekar",
+      demo: "https://nextbus-eta.vercel.app/",
+    },
+    {
       name: "King Barbar Shop - Barber & Salon Booking Platform",
       role: "Full Stack Developer",
       date: "2026",
